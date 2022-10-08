@@ -1,0 +1,45 @@
+/* Home.vue */
+.menu {
+  background-color: rgb(61, 52, 3);
+  padding-top: 1%;
+  height: auto;
+}
+
+.items {
+  padding-top: 1%;
+  text-align: center;
+  background-color: rgb(59, 47, 9);
+  height: auto;
+}
+
+.cart {
+  background-color: rgb(209, 131, 13);
+  padding-top: 1%;
+  height: auto;
+}
+
+/* Responsive */
+
+@media screen and (min-width: 990px) {
+  .cart {
+    height: 2000px;
+  }
+}
+
+@media screen and (min-width: 595px) and (max-width: 767px) {
+  .items {
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .items {
+    min-width: 100%;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .menu {
+    text-align: center;
+  }
+}
